@@ -1,0 +1,26 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.local/
+secrets.yaml
+*.pgpass
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+options.json
+# Runtime and generated data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.log
+reports/
+exports/
+.DS_Store
+.idea/
+.vscode/

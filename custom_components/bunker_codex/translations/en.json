@@ -1,0 +1,61 @@
+{
+  "title": "Bunker Codex",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bunker Codex",
+        "description": "Connect Assist to the existing Codex bridge on bunker. This assistant is available to administrators. The optional voice-device setting grants satellites without a user identity access to the same personal agent.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker HTTPS origin",
+          "access_token": "Bunker access token",
+          "ca_certificate": "TLS CA certificate (PEM)",
+          "timeout": "Response timeout (seconds)",
+          "allow_voice_without_user": "Allow voice devices without a user identity"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Bunker Codex",
+        "description": "Connect Assist to the existing Codex bridge on bunker. This assistant is available to administrators. The optional voice-device setting grants satellites without a user identity access to the same personal agent.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker HTTPS origin",
+          "access_token": "Bunker access token",
+          "ca_certificate": "TLS CA certificate (PEM)",
+          "timeout": "Response timeout (seconds)",
+          "allow_voice_without_user": "Allow voice devices without a user identity"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The bunker access token was rejected.",
+      "cannot_connect": "Cannot securely connect to a ready bunker bridge.",
+      "invalid_settings": "Check the HTTPS origin, name, token and PEM certificate."
+    },
+    "abort": {
+      "already_configured": "Bunker Codex is already configured.",
+      "reauth_successful": "Authentication updated."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bunker Codex",
+        "description": "Connect Assist to the existing Codex bridge on bunker. This assistant is available to administrators. The optional voice-device setting grants satellites without a user identity access to the same personal agent.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker HTTPS origin",
+          "access_token": "Bunker access token",
+          "ca_certificate": "TLS CA certificate (PEM)",
+          "timeout": "Response timeout (seconds)",
+          "allow_voice_without_user": "Allow voice devices without a user identity"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The bunker access token was rejected.",
+      "cannot_connect": "Cannot securely connect to a ready bunker bridge.",
+      "invalid_settings": "Check the HTTPS origin, name, token and PEM certificate."
+    }
+  }
+}

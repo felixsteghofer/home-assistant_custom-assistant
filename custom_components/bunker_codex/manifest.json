@@ -1,0 +1,17 @@
+{
+  "domain": "bunker_codex",
+  "name": "Bunker Codex",
+  "version": "0.1.0",
+  "config_flow": true,
+  "dependencies": [
+    "conversation"
+  ],
+  "requirements": [],
+  "codeowners": [
+    "@felixsteghofer"
+  ],
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "documentation": "https://github.com/felixsteghofer/home-assistant_custom-assistant",
+  "issue_tracker": "https://github.com/felixsteghofer/home-assistant_custom-assistant/issues"
+}

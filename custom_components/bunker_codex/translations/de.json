@@ -1,0 +1,61 @@
+{
+  "title": "Bunker Codex",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bunker Codex",
+        "description": "Verbindet Assist mit dem bestehenden Codex-Dienst auf bunker. Administratoren können diesen Assistenten nutzen. Die zusätzliche Sprachgeräte-Freigabe erlaubt Satelliten ohne Benutzerzuordnung Zugriff auf denselben persönlichen Agenten.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker-HTTPS-Adresse",
+          "access_token": "Bunker-Zugangstoken",
+          "ca_certificate": "TLS-CA-Zertifikat (PEM)",
+          "timeout": "Antwortzeitlimit (Sekunden)",
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Bunker Codex",
+        "description": "Verbindet Assist mit dem bestehenden Codex-Dienst auf bunker. Administratoren können diesen Assistenten nutzen. Die zusätzliche Sprachgeräte-Freigabe erlaubt Satelliten ohne Benutzerzuordnung Zugriff auf denselben persönlichen Agenten.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker-HTTPS-Adresse",
+          "access_token": "Bunker-Zugangstoken",
+          "ca_certificate": "TLS-CA-Zertifikat (PEM)",
+          "timeout": "Antwortzeitlimit (Sekunden)",
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Bunker-Zugangstoken wurde abgelehnt.",
+      "cannot_connect": "Keine sichere Verbindung zum bereiten Bunker-Dienst möglich.",
+      "invalid_settings": "Bitte HTTPS-Adresse, Namen, Token und PEM-Zertifikat prüfen."
+    },
+    "abort": {
+      "already_configured": "Bunker Codex ist bereits eingerichtet.",
+      "reauth_successful": "Authentifizierung aktualisiert."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bunker Codex",
+        "description": "Verbindet Assist mit dem bestehenden Codex-Dienst auf bunker. Administratoren können diesen Assistenten nutzen. Die zusätzliche Sprachgeräte-Freigabe erlaubt Satelliten ohne Benutzerzuordnung Zugriff auf denselben persönlichen Agenten.",
+        "data": {
+          "name": "Name",
+          "backend_url": "Bunker-HTTPS-Adresse",
+          "access_token": "Bunker-Zugangstoken",
+          "ca_certificate": "TLS-CA-Zertifikat (PEM)",
+          "timeout": "Antwortzeitlimit (Sekunden)",
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Bunker-Zugangstoken wurde abgelehnt.",
+      "cannot_connect": "Keine sichere Verbindung zum bereiten Bunker-Dienst möglich.",
+      "invalid_settings": "Bitte HTTPS-Adresse, Namen, Token und PEM-Zertifikat prüfen."
+    }
+  }
+}
