@@ -38,6 +38,7 @@ Use **Settings → Devices & services → Bunker Codex → Configure** to edit:
 
 - Assistant name and bridge HTTPS address.
 - Bridge access token and TLS CA certificate.
+- Answer simple requests locally first (enabled by default).
 - Response timeout: 5–120 seconds (default 90).
 - Whether voice devices without an HA user identity may use this personal agent.
 
@@ -49,6 +50,16 @@ The existing Codex service can use its ChatGPT login and account usage limits.
 Administrator users are allowed by default. Identified non-admin users are
 rejected. Enabling the voice-device option deliberately grants satellites without
 a user identity access to the same personal agent and its existing tools.
+
+Recognised device commands and current-state questions go directly to Home
+Assistant's built-in conversation agent, avoiding a model/tool round trip. This
+uses the entities exposed to Assist and your configured sentence triggers. Strict sentence matching is used.
+Recognition/target mismatches fall back to Codex; action-handling errors are
+returned without retrying the action. The option can be disabled in Configure.
+
+Once Codex joins a conversation, its follow-ups stay with Codex. Earlier local
+exchanges are provided as context when handing over. Historical analysis,
+diagnosis and configuration changes still use the bridge and its tools.
 
 Follow-ups reuse a user-isolated Codex context. Single clarification questions can
 be answered through Assist. Permission approvals are handled in the existing

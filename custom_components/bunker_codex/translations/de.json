@@ -11,7 +11,8 @@
           "access_token": "Bunker-Zugangstoken",
           "ca_certificate": "TLS-CA-Zertifikat (PEM)",
           "timeout": "Antwortzeitlimit (Sekunden)",
-          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen",
+          "prefer_local_intents": "Einfache Anfragen zuerst lokal beantworten"
         }
       },
       "reauth_confirm": {
@@ -23,7 +24,8 @@
           "access_token": "Bunker-Zugangstoken",
           "ca_certificate": "TLS-CA-Zertifikat (PEM)",
           "timeout": "Antwortzeitlimit (Sekunden)",
-          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen",
+          "prefer_local_intents": "Einfache Anfragen zuerst lokal beantworten"
         }
       }
     },
@@ -48,7 +50,8 @@
           "access_token": "Bunker-Zugangstoken",
           "ca_certificate": "TLS-CA-Zertifikat (PEM)",
           "timeout": "Antwortzeitlimit (Sekunden)",
-          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen"
+          "allow_voice_without_user": "Sprachgeräte ohne Benutzerzuordnung zulassen",
+          "prefer_local_intents": "Einfache Anfragen zuerst lokal beantworten"
         }
       }
     },

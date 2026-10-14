@@ -23,6 +23,7 @@ def schema(values):
             TextSelector(TextSelectorConfig(multiline=True)),
         vol.Required('timeout', default=values.get('timeout', DEFAULT_TIMEOUT)):
             NumberSelector(NumberSelectorConfig(min=5, max=120, step=1, mode=NumberSelectorMode.BOX)),
+        vol.Required('prefer_local_intents', default=values.get('prefer_local_intents', True)): BooleanSelector(),
         vol.Required('allow_voice_without_user', default=values.get('allow_voice_without_user', False)): BooleanSelector(),
     })
 

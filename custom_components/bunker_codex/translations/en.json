@@ -11,7 +11,8 @@
           "access_token": "Bunker access token",
           "ca_certificate": "TLS CA certificate (PEM)",
           "timeout": "Response timeout (seconds)",
-          "allow_voice_without_user": "Allow voice devices without a user identity"
+          "allow_voice_without_user": "Allow voice devices without a user identity",
+          "prefer_local_intents": "Answer simple requests locally first"
         }
       },
       "reauth_confirm": {
@@ -23,7 +24,8 @@
           "access_token": "Bunker access token",
           "ca_certificate": "TLS CA certificate (PEM)",
           "timeout": "Response timeout (seconds)",
-          "allow_voice_without_user": "Allow voice devices without a user identity"
+          "allow_voice_without_user": "Allow voice devices without a user identity",
+          "prefer_local_intents": "Answer simple requests locally first"
         }
       }
     },
@@ -48,7 +50,8 @@
           "access_token": "Bunker access token",
           "ca_certificate": "TLS CA certificate (PEM)",
           "timeout": "Response timeout (seconds)",
-          "allow_voice_without_user": "Allow voice devices without a user identity"
+          "allow_voice_without_user": "Allow voice devices without a user identity",
+          "prefer_local_intents": "Answer simple requests locally first"
         }
       }
     },
